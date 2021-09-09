@@ -16,7 +16,7 @@ const correctAns = {
 
 const formElements = [form.q1,form.q2,form.q3,form.q4,form.q5,form.q6,form.q7,form.q8,form.q9,form.q10]
 
-console.log(correctAns)
+// console.log(correctAns)
 
 form.addEventListener('submit' , function(e){
     e.preventDefault()
@@ -33,7 +33,7 @@ form.addEventListener('submit' , function(e){
         10 : this.q10.value ,
     }
 
-    console.log(userAns)
+    // console.log(userAns)
 
     for ( let i=0 ; i < formElements.length ; i++){
         for ( let j = 0 ; j < 3 ; j++){
