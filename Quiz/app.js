@@ -67,6 +67,8 @@ const resetAll = () => {
     for ( let i=0 ; i < formElements.length ; i++){
         for ( let j = 0 ; j < 3 ; j++){
             formElements[i][j].removeAttribute("disabled")
+            // formElements[i][j].checked = "false"
+            result.innerText = ""
         }
     }
 }

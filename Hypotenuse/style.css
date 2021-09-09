@@ -1,0 +1,92 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #003049;
+}
+
+.box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 1em;
+}
+
+.box h1 {
+  color: #a8dadc;
+  font-family: "Balsamiq Sans", cursive;
+}
+.box h2 {
+  color: #a8dadc;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+.box h2 a {
+  text-decoration: none;
+  color: #a8dadc;
+}
+
+.container h2 {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  color: #eae2b7;
+}
+
+.container h3 {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  color: #fcbf49;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: max-content;
+  width: 90%;
+  flex-direction: column;
+  gap: 1em;
+  margin: 1.4em 0em;
+  background-color: #e63946;
+  padding: 1em;
+  border-radius: 0.6em;
+}
+
+form label {
+  font-size: 1.2em;
+  font-family: "Roboto Slab", serif;
+  color: #eae2b7;
+  /* font-style: italic; */
+  font-weight: 600;
+}
+
+form input {
+  font-family: "Roboto Slab", serif;
+  border: none;
+  border-radius: 0.4em;
+  text-align: center;
+}
+
+form button {
+  font-family: "Roboto Slab", serif;
+  padding: 0.6em;
+  margin: 1em;
+  border: none;
+  background-color: #fcbf49;
+  border-radius: 0.4em;
+  color: #d62828;
+  font-size: 1em;
+  font-weight: 600;
+}

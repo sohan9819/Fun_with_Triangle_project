@@ -19,7 +19,7 @@ form.addEventListener('submit' , function(e){
 
 const checkTraingle = (a,b,c) => {
     if ( a + b + c === 180){
-        result.innerText = "Yay, the angles form a triangle!"
+        result.innerText = "Yay, the angles form a triangle!!!"
     } else {
         result.innerText = "Oh Oh! The angle doesn't form a triangle"
     }
