@@ -1,0 +1,84 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  background-color: #a8dadc;
+}
+
+/* font-family: 'Balsamiq Sans', cursive;
+
+font-family: 'Roboto Slab', serif; */
+
+.box-1 {
+  font-family: "Balsamiq Sans", cursive;
+  padding: 0.5em 1em;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-1 h1 {
+  color: #1d3557;
+}
+
+a {
+  text-decoration: none;
+  color: #1d3557;
+}
+
+h2 {
+  font-family: "Roboto Slab", serif;
+  color: #e63946;
+}
+
+form {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.4em;
+  background-color: #457b9d;
+  border-radius: 0.8em;
+}
+
+form label {
+  font-family: "Balsamiq Sans", cursive;
+  color: #1d3557;
+  font-size: 1.4em;
+}
+
+form input {
+  font-family: "Balsamiq Sans", cursive;
+  border: none;
+  border-radius: 0.4em;
+  background-color: #f1faee;
+  padding: 0.4em;
+  text-align: center;
+}
+
+form button {
+  font-family: "Balsamiq Sans", cursive;
+  padding: 0.6em;
+  border: none;
+  border-radius: 0.6em;
+  background-color: #f1faee;
+}
+
+#result {
+  text-align: center;
+  margin: 1em;
+}
