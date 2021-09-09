@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Quiz</h1>
+    <div>
+      <h2>Quiz on triangles</h2>
+      <h4>For each correct ans you will get 1 point</h4>
+    </div>
+    <form action="" id="form">
+      <p>
+        Question 1 : What is the third angle for the triangle where angle1 = 45°
+        and angle2 = 45°?
+      </p>
+      <input type="radio" id="q1opt1" name="q1" value="45" /><label for="q1opt1">45°</label>
+      <input type="radio" id="q1opt2" name="q1" value="90" /><label for="q1opt2">90°</label>
+      <input type="radio" id="q1opt3" name="q1" value="60" /><label for="q1opt3">60°</label>
+      <p>
+        Question 2 : What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?
+      </p>
+      <input type="radio" id="q2opt1" name="q2" value="obtuse" /><label for="q2opt1">obtuse</label>
+      <input type="radio" id="q2opt2" name="q2" value="acute" /><label for="q2opt2">acute</label>
+      <input type="radio" id="q2opt3" name="q2" value="right" /><label for="q2opt3">right</label>
+      <p>
+        Question 3 : A triangle can have?
+      </p>
+      <input type="radio" id="q3opt1" name="q3" value="one right angle" /><label for="q3opt1">one right angle</label>
+      <input type="radio" id="q3opt2" name="q3" value="two right angle" /><label for="q3opt2">two right angle</label>
+      <input type="radio" id="q3opt3" name="q3" value="three right angle" /><label for="q3opt3">three right angle</label>
+      <p>
+        Question 4 : Which of the following can form a right angled triangle??
+      </p>
+      <input type="radio" id="q4opt1" name="q4" value="14, 15, 26" /><label for="q4opt1"> 14, 15, 26 </label>
+      <input type="radio" id="q4opt2" name="q4" value="12, 16, 20" /><label for="q4opt2"> 12, 16, 20 </label>
+      <input type="radio" id="q4opt3" name="q4" value="None" /><label for="q4opt3"> None </label>
+      <p>
+        Question 5 :Which of the following triangles are always similar?
+      </p>
+      <input type="radio" id="q5opt1" name="q5" value="Equilateral Triangle" /><label for="q5opt1"> Equilateral Triangle </label>
+      <input type="radio" id="q5opt2" name="q5" value="Isosceles Triangle" /><label for="q5opt2"> Isosceles Triangle </label>
+      <input type="radio" id="q5opt3" name="q5" value="Scalene Triangle" /><label for="q5opt3"> Scalene Triangle </label>
+      <p>
+        If one angle of a triangle is obtuse, then which one of the following is the possible measure of remaining angles?
+      </p>
+      <input type="radio" id="q6opt1" name="q6" value="100" /><label for="q6opt1">100</label>
+      <input type="radio" id="q6opt2" name="q6" value="85" /><label for="q6opt2">85</label>
+      <input type="radio" id="q6opt3" name="q6" value="None" /><label for="q6opt3">None</Nonelabel>
+      <p>
+     None   Question 7 :If the largest angle in a triangle is 70°, what is the least possible value of the smallest angle of the triangle?
+      </p>
+      <input type="radio" id="q7opt1" name="q7" value="30" /><label for="q7opt1">30</label>
+      <input type="radio" id="q7opt2" name="q7" value="10" /><label for="q7opt2">10</label>
+      <input type="radio" id="q7opt3" name="q7" value="None" /><label for="q7opt3">None</label>
+      <p>
+        Question 8 : The perimeter of scalene triangle with sides a, b, c is
+      </p>
+      <input type="radio" id="q8opt1" name="q8" value="a+b+c" /><label for="q8opt1">a+b+c</label>
+      <input type="radio" id="q8opt2" name="q8" value="2a" /><label for="q8opt2">2a</label>
+      <input type="radio" id="q8opt3" name="q8" value="None" /><label for="q8opt3">None</label>
+      <p>
+        Question 9 : A scalene triangle has ___ lines of symmetry
+      </p>
+      <input type="radio" id="q9opt1" name="q9" value="2" /><label for="q9opt1">2</label>
+      <input type="radio" id="q9opt2" name="q9" value="3" /><label for="q9opt2">3</label>
+      <input type="radio" id="q9opt3" name="q9" value="no" /><label for="q9opt3">no</label>
+      <p>
+        Question 10 : There is a right triangle PQR where: angle Q = 90°; angle P = angle R. What is the measure of angles P and R?
+      </p>
+      <input type="radio" id="q10opt1" name="q10" value="85" /><label for="q10opt1">85°</label>
+      <input type="radio" id="q10opt2" name="q10" value="65" /><label for="q10opt2">65°</label>
+      <input type="radio" id="q10opt3" name="q10" value="45" /><label for="q10opt3">45°</label>
+
+      <button type="submit" style="display: block">Submit</button>
+    </form>
+
+    <button id="reset" type="reset" style="display: block">Reset</button>
+
+    <h2 id="score"></h2>
+    <script src="./app.js"></script>
+  </body>
+</html>
