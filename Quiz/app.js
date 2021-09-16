@@ -1,6 +1,8 @@
 const form = document.querySelector('#form')
 const result = document.querySelector('#score')
 const reset = document.querySelector('#reset')
+var radioButton = document.querySelectorAll("input:checked")
+
 const correctAns = {
     1 : "90" ,
     2 : "right",
@@ -32,6 +34,8 @@ form.addEventListener('submit' , function(e){
         9 : this.q9.value ,
         10 : this.q10.value ,
     }
+
+    radioButton = document.querySelectorAll("input:checked");
 
     // console.log(userAns)
 
@@ -71,4 +75,9 @@ const resetAll = () => {
             result.innerText = ""
         }
     }
+
+    for (radio of radioButton) {
+        // console.log(radio);
+        radio.checked = false;
+      }
 }
