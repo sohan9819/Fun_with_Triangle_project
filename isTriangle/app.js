@@ -10,11 +10,11 @@ form.addEventListener("submit", function (e) {
   ) {
     result.innerText = "Enter all the angles ";
   } else if (
-    this.angle1.value < 0 ||
-    this.angle2.value < 0 ||
-    this.angle3.value < 0
+    this.angle1.value < 1 ||
+    this.angle2.value < 1 ||
+    this.angle3.value < 1
   ) {
-    result.innerText = "Negative values are not allowed ";
+    result.innerText = "All angles should be greater than zero ";
   } else {
     const a = parseInt(this.angle1.value);
     const b = parseInt(this.angle2.value);
