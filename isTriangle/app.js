@@ -20,7 +20,7 @@ form.addEventListener("submit", function (e) {
     const b = parseInt(this.angle2.value);
     const c = parseInt(this.angle3.value);
 
-    console.log(a + b + c);
+    // console.log(a + b + c);
 
     checkTraingle(a, b, c);
   }
