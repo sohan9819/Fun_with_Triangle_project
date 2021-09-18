@@ -2,7 +2,6 @@ const form = document.querySelector("#form");
 const result = document.querySelector("#score");
 const reset = document.querySelector("#reset");
 var radioButton = document.querySelectorAll("input:checked");
-// console.log(radioButton);
 const correctAns = {
   1: "90",
   2: "right",
@@ -29,8 +28,6 @@ const formElements = [
   form.q10,
 ];
 
-// console.log(correctAns);
-
 form.addEventListener("submit", function (e) {
   e.preventDefault();
   const userAns = {
@@ -47,9 +44,6 @@ form.addEventListener("submit", function (e) {
   };
 
   radioButton = document.querySelectorAll("input:checked");
-  //   console.log(radioButton);
-
-  //   console.log(userAns);
 
   for (let i = 0; i < formElements.length; i++) {
     for (let j = 0; j < 3; j++) {
@@ -75,22 +69,17 @@ const ansCheck = (correctAns, userAns) => {
 
 reset.addEventListener("click", function () {
   resetAll();
-  //   radioButton.checked = false;
-  //   console.dir(radioButton);
 });
 
 const resetAll = () => {
   for (let i = 0; i < formElements.length; i++) {
     for (let j = 0; j < 3; j++) {
       formElements[i][j].removeAttribute("disabled");
-      // formElements[i][j].checked = "false"
       result.innerText = "";
     }
   }
 
-  //   console.log(radioButton);
   for (radio of radioButton) {
-    // console.log(radio);
     radio.checked = false;
   }
 };
